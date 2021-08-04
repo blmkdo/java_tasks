@@ -27,7 +27,7 @@ public class Main {
                 switch(tor)
                     {
                         case "+":
-                        and = operand.pop() + and;
+                        and += operand.pop();
                         break;
 
                         case "-":
@@ -39,7 +39,7 @@ public class Main {
                         break;
 
                         case "*":
-                        and = operand.pop() * and;
+                        and *= operand.pop();
                         break;
 
                         case "sqrt":
